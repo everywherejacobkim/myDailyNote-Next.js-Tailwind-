@@ -1,6 +1,6 @@
 import React from "react";
 import { MdDone, MdDeleteOutline } from "react-icons/md";
-import { useTodoDispatch } from "../../context/TodoContext";
+import { useTodoDispatch } from "../../../context/TodoContext";
 
 const CheckCircle = ({ done, children, onClick }: {
     done: boolean;

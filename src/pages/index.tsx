@@ -1,16 +1,16 @@
 import { useState } from "react";
 import AppHead from "../components/AppHead";
 import Footer from "../components/Footer";
-import MemoContainer from "../components/MemoContainer";
-import MemoHead from "../components/MemoHead";
-import MemoItem from "../components/MemoItem";
-import QuoteContainer from "../components/QuoteContainer";
-import QuoteHead from "../components/QuoteHead";
-import QuoteItem from "../components/QuoteItem";
-import TodoContainer from "../components/TodoContainer";
-import TodoCreate from "../components/TodoCreate";
-import TodoHead from "../components/TodoHead";
-import TodoList from "../components/TodoList";
+import MemoContainer from "../components/Memo/MemoContainer";
+import MemoHead from "../components/Memo/MemoHead";
+import MemoItem from "../components/Memo/MemoItem";
+import QuoteContainer from "../components/Quote/QuoteContainer";
+import QuoteHead from "../components/Quote/QuoteHead";
+import QuoteItem from "../components/Quote/QuoteItem";
+import TodoContainer from "../components/Todo/TodoContainer";
+import TodoCreate from "../components/Todo/TodoCreate";
+import TodoHead from "../components/Todo/TodoHead";
+import TodoList from "../components/Todo/TodoList";
 
 const App = () => {
   const [chosenQuote, setChosenQuote] = useState<string[]>(["life"]);
